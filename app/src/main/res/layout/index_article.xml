@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/index_linearLayout"
+    tools:context="com.pidev.esprit.pidevmobile.IndexActivity"
+    >
+
+
+    <Button
+        android:id="@+id/btnListArticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All articals" />
+
+    <Button
+        android:id="@+id/btnAddArticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add articel" />
+</LinearLayout>
